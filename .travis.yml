@@ -21,7 +21,7 @@ install:
   - if [ x"$HEAD" = "xyes" ]; then export PATH=$HOME/vim/bin:$PATH; fi
 
 before_script:
-    - git clone https://github.com/syngan/vim-vimlint --branch grep /tmp/vim-vimlint
+  - git clone https://github.com/syngan/vim-vimlint --branch grep /tmp/vim-vimlint
   - git clone https://github.com/ynkdir/vim-vimlparser /tmp/vim-vimlparser
   - git clone https://github.com/thinca/vim-themis --branch v1.4.1 --single-branch --depth 1 /tmp/vim-themis
   - git clone https://github.com/Shougo/vimproc.vim /tmp/vimproc
